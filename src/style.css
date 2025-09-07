@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  padding: 10px;
+  background-color: wheat;
+}
+
+main{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+form{
+  display: flex;
+}
+
+input {
+  width: 80%;
+  font-size: 18pt;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#submit{
+  width: 20%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#submit:hover , .title > button:hover,
+.item > button:hover {
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+}
+
+.listItem{
+  margin-top: 10px;
+}
+
+.ListTitle{
+  display: flex;
+}
+
+h2{
+  align-content: center;
+  width: 80%;
+  color: #404040;
+  padding: 5px;
+}
+
+hr{
+  background: #606060;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ListTitle > button{
+  width: 20%;
+  height: 50px;
+  font-size: 18pt;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul{
+  font-size: 16pt;  
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+}
+
+.item > input[type="checkbox"]{
+  width: 5%;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  cursor: pointer;  
+}
+
+.item > input[type="checkbox"]:checked + label {
+    color: blue;
+    text-decoration: line-through;
+}
+
+.item > label {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    word-break: break-all;
+    align-content: center;
+}
+
+.item > button {
+  font-size: 16pt;
+  width: 5%;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.item:hover{
+  color: blue;
+}

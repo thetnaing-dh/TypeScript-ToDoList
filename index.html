@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <script type="module" src="/src/main.ts"></script>
+    <title>My To Do List</title>
+  </head>
+  <body>
+    <main class="addItem">
+     <form id="itemEntryForm">       
+        <input id="newItem" type="text" autocomplete="off" placeholder="Add to do item" />
+        <input id="submit" type="submit" value = "Add">
+     </form>
+    </main>
+    <main class="listItem">
+      <section class="ListTitle">
+        <h2>My To Do List</h2>
+        <button id="clear">Clear</button>
+      </section>      
+      <hr size="5px">
+      <ul id="listItems"></ul>
+    </main>
+  </body>
+</html>
