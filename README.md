@@ -14,7 +14,7 @@ A simple and efficient TypeScript-based to-do list application with local storag
 ## Installation
 1. Clone the repository:
 
-       git clone https://github.com/thetnaing-dh/TypeScript-ToDoList/tree/main
+       git clone https://github.com/thetnaing-dh/TypeScript-ToDoList
        cd toDoList
   
 4. Install dependencies:
